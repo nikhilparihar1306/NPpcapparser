@@ -25,7 +25,7 @@ class PcapParser
     char* writeSessionDirPath;
 
     //object of ParsingPcap class.
-	ParsingPcap *objOfParsingPcap=objOfParsingPcap->getInstance();
+    ParsingPcap *objOfParsingPcap=objOfParsingPcap->getInstance();
 
     bool getListOfFiles(const char* rootDir);
     bool sendToParse(string &filePath);
