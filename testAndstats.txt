@@ -1,0 +1,21 @@
+The program has been tested over following files and conditions:-
+
+1)Tested on following files with sizes and time taking in parsing.
+file sizes(in mb)	time taken(in sec)
+11			2.54
+22			5.06
+45			9.75
+90			19.16
+110			24.53
+215			47.42
+410			68.91
+800 			91.26
+1600			200.75
+
+2)Tested on following conditions.
+*adding files on runtime.
+*giving false inputs.
+*giving both directory input and a file path input.
+*giving files with a different format.
+*giving files with a different header.
+ 
